@@ -1,4 +1,4 @@
-package org.example.lesson_4
+package org.example.lesson_1_task4
 
 fun main() {
     val length: Long = 40868600000L

@@ -1,4 +1,4 @@
-package org.example.lesson_3
+package org.example.lesson_1_task3
 
 fun main() {
     val year = 1961

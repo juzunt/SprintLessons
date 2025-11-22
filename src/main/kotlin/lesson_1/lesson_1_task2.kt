@@ -1,4 +1,4 @@
-package org.example.lesson_2
+package org.example.lesson_1_task2
 
 fun main() {
     val numberOfOrders: Int = 75

@@ -6,6 +6,9 @@ fun main() {
     val student3 = 3
     val student4 = 5
 
-    val result = (student1 + student2 + student3 + student4) / 4.0f
-    println(String.format("%.2f", result))
+    val totalStudents = 4
+    val sumOfScores = (student1 + student2 + student3 + student4).toFloat()
+    val result = sumOfScores / totalStudents
+
+    println(String.format("Средний балл учеников: %.2f", result))
 }

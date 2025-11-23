@@ -1,8 +1,8 @@
 package org.example.lesson_2
 
-const val BUFF_PERCENT = 20.0f
-
 fun main() {
+    val BUFF_PERCENT = 20.0f
+
     val crystalOre = 7
     val ironOre = 11
 

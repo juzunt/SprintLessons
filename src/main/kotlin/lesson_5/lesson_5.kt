@@ -26,4 +26,4 @@ fun main() {
     println(consoleNumber)
 }
 
-//const val AGE_OF_MAJORITY = 18
+const val AGE_OF_MAJORITY = 18

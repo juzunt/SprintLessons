@@ -20,7 +20,8 @@ fun main() {
 
     val totalFuelCost = (totalFuelConsumption * fuelPrice)
 
-    println(String.format("Для поездки необходимо $totalFuelConsumption литров топлива. Стоимость поездки: %.2f руб.", totalFuelCost))
+    println(String.format("""|Для поездки необходимо $totalFuelConsumption литров топлива.
+        |Стоимость поездки: %.2f руб.""".trimMargin(), totalFuelCost))
 
 
 }

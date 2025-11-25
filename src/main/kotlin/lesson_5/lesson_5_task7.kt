@@ -7,7 +7,7 @@ fun main() {
     println()
 
     print("Расход топлива на 100 км (в литрах): ")
-    val fuelСonsumption = readln().toDouble()
+    val fuelConsumption = readln().toDouble()
 
     println()
 
@@ -16,7 +16,7 @@ fun main() {
 
     println()
 
-    val totalFuelConsumption = (travelDistance * fuelСonsumption) / 100
+    val totalFuelConsumption = (travelDistance * fuelConsumption) / 100
 
     val totalFuelCost = (totalFuelConsumption * fuelPrice)
 

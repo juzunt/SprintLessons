@@ -7,15 +7,15 @@ const val SEASON: String = "Зима"
 
 fun main() {
 
-    val sunnyForBeans = true
-    val openedTentForBeans = true
+    val isSunnyForBeans = true
+    val isTentForBeans = true
     val airHumidityForBeans = 20
-    val seasonForBeans = "Не зима"
+    val badSeason = "Зима"
 
-    val result = (IS_WEATHER_SUNNY == sunnyForBeans) &&
-            (IS_TENT_OPEN == openedTentForBeans) &&
+    val result = (IS_WEATHER_SUNNY == isSunnyForBeans) &&
+            (IS_TENT_OPEN == isTentForBeans) &&
             (AIR_HUMIDITY == airHumidityForBeans) &&
-            (SEASON != "Зима")
+            (SEASON != badSeason)
 
     println("Благоприятные ли условия сейчас для роста бобовых? $result")
 

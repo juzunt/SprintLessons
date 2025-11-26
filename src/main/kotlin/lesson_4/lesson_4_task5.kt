@@ -28,6 +28,6 @@ fun main() {
         (isSheepDamaged == false && numberOfCrew >= MIN_CREW && numberOfCrew <= MAX_CREW && amountOfProvisions > MIN_PROVISION)
                 || (isSheepDamaged == true && numberOfCrew == MAX_CREW && weather == true && amountOfProvisions >= MIN_PROVISION)
 
-    println("Корабль  может отправиться в плавание: $result")
+    println("Корабль может отправиться в плавание: $result")
 
 }

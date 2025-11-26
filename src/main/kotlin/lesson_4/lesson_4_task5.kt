@@ -2,7 +2,6 @@ package org.example.lesson_4
 
 const val MIN_CREW = 50
 const val MAX_CREW = 70
-const val FULL_CREW = 70
 
 const val MIN_PROVISION = 50
 

@@ -1,5 +1,11 @@
 package org.example.lesson_4
 
+const val MIN_CREW = 50
+const val MAX_CREW = 70
+const val FULL_CREW = 70
+
+const val MIN_PROVISION = 50
+
 fun main() {
     print("Корпус поврежден? ")
     val isSheepDamaged: Boolean = readln().toBoolean()
@@ -20,9 +26,9 @@ fun main() {
     val weather = readln().toBoolean()
 
     val result = (
-            isSheepDamaged == false && numberOfCrew >= 55 && numberOfCrew <= 70 && amountOfProvisions > 50) ||
+            isSheepDamaged == false && numberOfCrew >= MIN_CREW && numberOfCrew <= MAX_CREW && amountOfProvisions > MIN_PROVISION) ||
             (
-            isSheepDamaged == true && numberOfCrew == 70 && weather == true && amountOfProvisions >= 50
+            isSheepDamaged == true && numberOfCrew == MAX_CREW && weather == true && amountOfProvisions >= MIN_PROVISION
             )
 
     println("Корабль может отправиться в плавание: $result")

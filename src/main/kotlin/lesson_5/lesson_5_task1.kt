@@ -2,12 +2,12 @@ package org.example.lesson_5
 
 fun main() {
 
-    val a = 5
-    val b = 6
-    val sum = a + b
+    val number1 = 5
+    val number2 = 6
+    val sum = number1 + number2
 
     println("Докажите, что вы не бот.")
-    print("Решите пример: $a + $b = ")
+    print("Решите пример: $number1 + $number2 = ")
 
     val verification = readln().toInt()
 

@@ -1,12 +1,10 @@
 package org.example.lesson_5
 
-import kotlin.random.Random
-import kotlin.random.nextInt
 
 fun main() {
     val winningNumbers = mutableListOf<Int>()
     while (winningNumbers.size < 3) {
-        winningNumbers.add(Random.nextInt(0, 43))
+        winningNumbers.add((0..42).random())
     }
 
     println("Введите три числа от 0 до 42 включительно")
@@ -28,7 +26,7 @@ fun main() {
 
     println()
 
-    val userNumbers = mutableListOf<Int>(number1, number2, number3)
+    val userNumbers = mutableListOf(number1, number2, number3)
 
     val matchedNumbers = winningNumbers.intersect(userNumbers)
     val matchetCount = matchedNumbers.size
